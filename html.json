@@ -1,0 +1,82 @@
+[
+    {
+        "title": "What does HTML stand for?",
+        "answer_1": "Hyper Text Markup Language",
+        "answer_2": "How to Make Lasagna",
+        "answer_3": "Hot Mail",
+        "answer_4": "Hello To My Land",
+        "right_answer": "Hyper Text Markup Language"
+    },
+    {
+        "title": "How many tags are in a regular element?",
+        "answer_1": "1",
+        "answer_2": "2",
+        "answer_3": "3",
+        "answer_4": "4",
+        "right_answer": "2"
+    },
+    {
+        "title": "What is the difference between an opening tag and a closing tag?",
+        "answer_1": "Opening tag has a / in front",
+        "answer_2": "Closing tag has a / in front",
+        "answer_3": "There is no difference",
+        "answer_4": "All Answers Is Wrong",
+        "right_answer": "Closing tag has a / in front"
+    },
+    {
+        "title": "< br  / > What type of tag is this?",
+        "answer_1": "Break tag",
+        "answer_2": "A broken one",
+        "answer_3": "An opening tag",
+        "answer_4": "Anchor Tag",
+        "right_answer": "Break tag"
+    },
+    {
+        "title": "Which of the following is an example of an empty element?",
+        "answer_1": "< img />",
+        "answer_2": "< img> </ img>",
+        "answer_3": "</ img>",
+        "answer_4": "All Is Right",
+        "right_answer": "< img />"
+    },
+    {
+        "title": "<meta /> Where Is exist?",
+        "answer_1": "<body> Tag",
+        "answer_2": "<script> Tag",
+        "answer_3": "<head> Tag",
+        "answer_4": "<style> Tag",
+        "right_answer": "<head> Tag"
+    },
+    {
+        "title": "Which is the correct way to tag an image?",
+        "answer_1": "src=\"image.jpg/gif\" alt=\"type some text\"",
+        "answer_2": "<img src=\"image.jpg/gif\" alt=\"type some text\" />",
+        "answer_3": "<img src=\"image.jpg/gif\" alt=\"type some text\"></img>",
+        "answer_4": "</img src=\"image.jpg/gif\" alt=\"type some text\">",
+        "right_answer": "<img src=\"image.jpg/gif\" alt=\"type some text\" />"
+    },
+    {
+        "title": "What should values always be enclosed in?",
+        "answer_1": "Heyphine",
+        "answer_2": "Quotation marks",
+        "answer_3": "Parenthesis",
+        "answer_4": "Commas",
+        "right_answer": "Quotation marks"
+    },
+    {
+        "title": "What does <a href= \"https://www.google.com\" title= \"Link to Google \"target = \"_blank\" >google</ a> do?",
+        "answer_1": "Adds a link to google on the page",
+        "answer_2": "Adds a search engine to the page",
+        "answer_3": "GO to google When Window Load",
+        "answer_4": "Nothing",
+        "right_answer": "Adds a link to google on the page"
+    },
+    {
+        "title": "What DOCTYPE Refer To?",
+        "answer_1": "name of page",
+        "answer_2": "styel of page",
+        "answer_3": "location of page",
+        "answer_4": "version of page",
+        "right_answer": "version of page"
+    }
+]
