@@ -18,17 +18,30 @@ let right = 0;
 let numberOfQuestion;
 let timerInterval;
 window.onload = function () {
-    userInput.focus()
-    document.addEventListener('keydown', function (event) {
-        if (event.key === 'Enter' && userInput === document.activeElement) {
-            if (userInput.value.match(/[a-z0-9]/ig)) {
-                // Check if the "Enter" key is pressed and the user is in the input field
-                startQuiz();
-            } else {
-                document.getElementById('nameErrorMsg').textContent = 'Please enter your name.';
-            }
+  userInput.focus();
+  start.addEventListener("click", (event) => {
+    if (event.key === "Enter" && userInput === document.activeElement) {
+      if (userInput.value.match(/[a-z0-9]/gi)) {
+        // Check if the "Enter" key is pressed and the user is in the input field
+        startQuiz();
+      } else {
+        document.getElementById("nameErrorMsg").textContent =
+          "Please enter your name.";
+      }
+    }
+    document.addEventListener("keydown", function (event) {
+      if (event.key === "Enter" && userInput === document.activeElement) {
+        if (userInput.value.match(/[a-z0-9]/gi)) {
+          // Check if the "Enter" key is pressed and the user is in the input field
+          startQuiz();
+        } else {
+          document.getElementById("nameErrorMsg").textContent =
+            "Please enter your name.";
         }
+      }
     });
+  });
+};
     function startQuiz() {
         // Start the quiz logic here
         overlay.remove();
